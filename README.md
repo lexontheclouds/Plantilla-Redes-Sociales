@@ -1,6 +1,6 @@
 # Proyecto en desarrollo. Muchas cosas estan Rotas y hechas con ayuda de copilot.⚠️
 
-# Para ver mi web, descarga el repositorio en tu ordenador haciendo click en code, y luego a zip
+# Para ver mi web, accede a lexclouds.netlify.app. Puedes copiar este codigo base
 
 # Proyecto Enlaces de Redes Sociales
 
