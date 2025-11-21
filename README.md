@@ -1,6 +1,7 @@
 # Proyecto en desarrollo. Muchas cosas estan Rotas y hechas con ayuda de copilot.⚠️
 
-# Para ver mi web, descarga el repositorio en tu ordenador
+# Para ver mi web, descarga el repositorio en tu ordenador haciendo click en code, y luego a zip
+
 # Proyecto Enlaces de Redes Sociales
 
 Este proyecto es una aplicación web sencilla que muestra enlaces a varios perfiles de redes sociales. Está diseñada para ser fácil de configurar y personalizar.
