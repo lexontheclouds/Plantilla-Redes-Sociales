@@ -1,0 +1,118 @@
+/* Estilos de toda la página */
+body {
+    font-family: 'Segoe UI', 'Roboto', sans-serif; /* Tipo de letra */
+    background-color: #261436; /* Fondo oscuro */
+    margin: 0;
+    padding: 20px; /* Espacio alrededor */
+    color: #e6eef8; /* Color del texto */
+}
+
+/* Título principal (nombre) */
+h1 {
+    margin: 8px 0 0 0;
+    color: #e6eef8; /* Texto claro */
+    font-size: 1.6rem;
+}
+
+/* Cabecera con el avatar y nombre */
+.site-header {
+    text-align: center; /* Todo centrado */
+    padding-bottom: 8px;
+}
+
+/* Foto de perfil circular */
+.avatar {
+    width: 120px;
+    height: 120px;
+    object-fit: cover; /* Ajusta la imagen */
+    border-radius: 50%; /* Hace que sea circular */
+    display: block;
+    margin: 0 auto 12px auto; /* Centrada */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.7); /* Sombra suave */
+    background-color: #3a3a3a; /* Color de fondo para imagen vacía */
+}
+
+/* Subtítulo debajo del nombre */
+.subtitle {
+    margin: 6px 0 0 0;
+    color: #9aa6b2; /* Texto gris claro */
+}
+
+/* Contenedor de los botones de redes sociales */
+.social-media-links {
+    display: flex; /* Botones en fila */
+    justify-content: center; /* Centrados */
+    flex-wrap: wrap; /* Se adaptan si no caben */
+    margin-top: 20px;
+    gap: 12px; /* Espacio entre botones */
+}
+
+/* Contenedor de cada item (botón + descripción) */
+.social-media-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Estilo de cada botón */
+.social-media-link {
+    margin: 0;
+    text-decoration: none; /* Sin subrayado */
+    color: white; /* Texto blanco */
+    padding: 12px 22px; /* Espacio interno */
+    border-radius: 8px; /* Esquinas redondeadas */
+    transition: all 0.3s ease; /* Animación suave */
+    display: inline-block;
+    font-weight: 600; /* Texto en negrita */
+    box-shadow: 0 3px 10px rgba(0,0,0,0.6); /* Sombra */
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Gradiente por defecto */
+}
+
+/* Animación cuando pasas el ratón por encima */
+.social-media-link:hover {
+    transform: translateY(-3px); /* Sube un poco */
+    box-shadow: 0 6px 20px rgba(0,0,0,0.8); /* Sombra más grande */
+    filter: brightness(1.1); /* Se ilumina un poco */
+}
+
+/* Descripción debajo del botón (oculta por defecto) */
+.social-media-description {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+    color: #9aa6b2;
+    text-align: center;
+    max-width: 120px;
+    line-height: 1.2;
+    pointer-events: none;
+}
+
+/* Mostrar descripción cuando el item está en hover */
+.social-media-item:hover .social-media-description {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Fondo animado (capa lenta) */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2; /* detrás de todo */
+    background: linear-gradient(45deg, #0b0c0f, #151a28, #0f1b2a);
+    background-size: 300% 300%;
+    animation: fondo-mover 25s ease infinite;
+    pointer-events: none;
+}
+
+/* Fondo: animación lenta */
+@keyframes fondo-mover {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
