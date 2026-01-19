@@ -22,12 +22,14 @@ demo-template/
 ```
 
 ## Cómo usar
+⚠️NECESITAS TENER INSTALADO VISUAL STUDIO CODE⚠️
 
 1. **Clona o descarga este repositorio**:
    ```bash
    git clone <url-del-repositorio>
    cd demo-template
    ```
+   O haz clic en el botón CODE Verde de arriba y a SAVE ZIP (Guardar ZIP). Eso creará un archivo ZIP en tu ordenador con todos los documentos necesarios para crear tu web
 
 2. **Personaliza el contenido**:
    - Abre `src/index.html` en tu editor de texto
