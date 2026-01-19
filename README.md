@@ -1,46 +1,95 @@
-# Proyecto en desarrollo. Muchas cosas estan Rotas y hechas con ayuda de copilot.⚠️
+# Plantilla de Enlaces de Redes Sociales
 
-# Para ver mi web, accede a lexclouds.netlify.app. Puedes copiar este codigo base
+Una plantilla simple y personalizable para crear tu propia página de enlaces de redes sociales. Perfecta para compartir todos tus perfiles en un solo lugar.
 
-# Proyecto Enlaces de Redes Sociales
+## Características
 
-Este proyecto es una aplicación web sencilla que muestra enlaces a varios perfiles de redes sociales. Está diseñada para ser fácil de configurar y personalizar.
+- ✨ Diseño moderno y responsivo
+- 🎨 Fácil de personalizar
+- 📱 Compatible con móviles
+- 🎯 Botones interactivos con descripciones
+- ⚡ Sin dependencias externas
+- 🌙 Tema oscuro predeterminado
 
 ## Estructura del proyecto
 
 ```
-social-media-links
-├── src
-│   ├── index.html        # Documento HTML principal
-│   ├── styles
-│   │   └── style.css     # Estilos CSS para la página
-│   └── scripts
-│       └── main.js       # JavaScript para funciones interactivas
-└── README.md             # Documentación del proyecto
+demo-template/
+├── src/
+│   ├── index.html        # Página principal
+│   └── index.css         # Estilos CSS
+└── README.md             # Este archivo
 ```
 
-## Cómo empezar
+## Cómo usar
 
-1. **Clona el repositorio** (si aplica):
-   ```
+1. **Clona o descarga este repositorio**:
+   ```bash
    git clone <url-del-repositorio>
+   cd demo-template
    ```
 
-2. **Entra en el directorio del proyecto**:
-   ```
-   cd social-media-links
-   ```
+2. **Personaliza el contenido**:
+   - Abre `src/index.html` en tu editor de texto
+   - Reemplaza "Tu nombre" con tu nombre real
+   - Añade la URL de tu foto de perfil en el atributo `src` de la imagen
+   - Actualiza cada "Sample Button X" con el nombre de tu red social
+   - Cambia los enlaces `href="#"` por tus URLs reales
+   - Escribe descripciones personalizadas para cada red
 
-3. **Abre el archivo `index.html`** en tu navegador para ver la aplicación.
+3. **Personaliza los estilos (opcional)**:
+   - Abre `src/index.css`
+   - Modifica colores, tamaños de fuente, etc. según tus preferencias
+   - Los botones tienen un gradiente por defecto que puedes cambiar
 
-## Personalización
+4. **Abre en tu navegador**:
+   - Haz doble clic en `src/index.html` o abre el archivo en tu navegador
 
-Puedes personalizar los enlaces de redes sociales editando el archivo `index.html`. Actualiza las etiquetas `<a>` con tus propias URLs.
+## Personalización de colores
 
-## Dependencias
+En `index.css` puedes cambiar:
+- `background-color: #261436` - Color de fondo de la página
+- `color: #e6eef8` - Color del texto
+- `background: linear-gradient(...)` - Gradiente de los botones
 
-Este proyecto no tiene dependencias externas.
+## Ejemplo de personalización
+
+```html
+<!-- Cambiar esto: -->
+<a class="social-media-link" href="#" target="_blank" rel="noopener">
+    Sample Button 1
+</a>
+
+<!-- Por esto: -->
+<a class="social-media-link twitter" href="https://twitter.com/tuusuario" target="_blank" rel="noopener">
+    Twitter
+</a>
+```
+
+Y en CSS:
+```css
+.twitter {
+    background-color: #1da1f2; /* Azul de Twitter */
+}
+```
+
+## Requisitos
+
+Ninguno. Solo necesitas:
+- Un navegador web moderno
+- Un editor de texto
+- Una conexión a internet (para acceder a Google Fonts)
 
 ## Licencia
 
-Este proyecto es de código abierto y está disponible bajo la licencia MIT.
+Libre para usar y modificar como desees.
+
+## ¿Necesitas ayuda?
+
+Si encuentras problemas, verifica:
+1. Que los enlaces sean correctos (comenzar con `https://`)
+2. Que la ruta de la imagen sea válida
+3. Que el archivo `index.css` esté en la misma carpeta que `index.html`
+
+¡Diviértete personalizando tu página! 🎉
+
