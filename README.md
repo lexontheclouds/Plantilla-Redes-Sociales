@@ -33,7 +33,7 @@ demo-template/
 
 2. **Personaliza el contenido**:
    - Abre `src/index.html` en tu editor de texto
-   - Reemplaza "Tu nombre" con tu nombre real
+   - Reemplaza "Tu nombre" con tu nombre real o tu Nombre de usuario 
    - Añade la URL de tu foto de perfil en el atributo `src` de la imagen
    - Actualiza cada "Sample Button X" con el nombre de tu red social
    - Cambia los enlaces `href="#"` por tus URLs reales
@@ -82,6 +82,10 @@ Ninguno. Solo necesitas:
 - Un editor de texto
 - Una conexión a internet (para acceder a Google Fonts)
 
+## Como subir a Internet 
+
+Recomiendo usar Netlify ya que es gratis, pero puedes usar la compañía de hosting que mas te guste.
+
 ## Licencia
 
 Libre para usar y modificar como desees.
@@ -92,6 +96,7 @@ Si encuentras problemas, verifica:
 1. Que los enlaces sean correctos (comenzar con `https://`)
 2. Que la ruta de la imagen sea válida
 3. Que el archivo `index.css` esté en la misma carpeta que `index.html`
+4. Que no haya ninguna linea sin cerrar 
 
 ¡Diviértete personalizando tu página! 🎉
 
